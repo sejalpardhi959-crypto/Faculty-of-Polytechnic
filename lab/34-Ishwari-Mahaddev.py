@@ -22,3 +22,12 @@ for x in M:
         print("divis")
     else:
         print("divisable")
+    
+      #problem4
+q=[1,2,3]
+def number(q):
+  for x in q:
+    print(x)
+number(q)
+
+    
