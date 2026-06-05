@@ -1,7 +1,7 @@
 #problem1
 s = {'a', 'b', 'c', 'd'}
 
-s.update({'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
+s.update({'e', 'f', 'h', 'i', 'j', 'k', 'l', 'm',
           'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v',
           'w', 'x', 'y', 'z'})
 
@@ -42,3 +42,23 @@ for x in s:
         c = c + 1
 
 print("Number of consonants =", c)
+#problem4
+S = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j',
+     'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't',
+     'u', 'v', 'w', 'x', 'y', 'z'}
+
+V = set()
+C = set()
+
+for x in S:
+    if x in "aeiou":
+        V.add(x)
+    else:
+        C.add(x)
+
+print("Vowels =", V)
+print("Count of vowels =", len(V))
+
+print("Consonants =", C)
+print("Count of consonants =", len(C))
+
