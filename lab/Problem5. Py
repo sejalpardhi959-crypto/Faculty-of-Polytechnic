@@ -1,0 +1,6 @@
+num=5
+student=[]
+for i in range(5):
+    name = input("Enter name for student ")
+    student. append(name) 
+print("List of students:", student)
