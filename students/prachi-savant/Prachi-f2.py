@@ -72,4 +72,39 @@ elif guess < num:
     print("Too Low")
 else:
     print("Too High")
+          #problem6
+num=10
+unum=0
+while unum != num:
+    uinp=int(input(".....1-10:"))
+    unum=uinp
+    print("incorrect guess")
+print("correct...")
+
+
+
+#Problem7
+num=10
+unum=0
+while True :
+    uinp=int(input("....."))
+    unum=uinp
+    if uinp !=num:
+        print("incorrect")
+    else:
+        print("correct")
+        break
+
+
+
+
+#Problem8
+n = 5
+students = []
+
+for i in range(n):
+    name = input(f"Enter name of student {i+1}: ")
+    students.append(name)
+
+print("Student Names:")
 
